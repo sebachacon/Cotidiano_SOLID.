@@ -20,8 +20,9 @@ class Coche(private val motor: Motor){
 }
 fun main() {
     val motorGasolina = MotorGasolina()
-    val motorElectrico =MotorElectrico()
+    val motorElectrico = MotorElectrico()
     val coche1 = Coche(motorGasolina)
     val coche2 = Coche(motorElectrico)
     coche1.arrancar()
     coche2.arrancar()
+}
