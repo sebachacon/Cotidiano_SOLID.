@@ -25,4 +25,3 @@ fun main() {
     val coche2 = Coche(motorElectrico)
     coche1.arrancar()
     coche2.arrancar()
-}
